@@ -1,0 +1,25 @@
+.nav-elements {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    position: relative;
+    
+    font-size: 3em;
+    left: 0;
+    height: 100%;
+    
+    z-index: 3;
+    align-items: center;
+
+}
+#about-text {
+    margin-right: 40px;
+    
+}
+.grid-projects {
+    display: grid;
+    margin: 0 auto;
+    grid-template: 1fr / 1fr;
+    width: 70%;
+    gap: 20px;
+}

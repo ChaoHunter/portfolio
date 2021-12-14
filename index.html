@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link href="./styles.css" rel="stylesheet"/>
+        <!-- <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 100px) and (max-device-width: 500px)" href="./mobile.css" /> -->
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+
+    </head>
+    <body>
+        
+            <nav class="navbar">
+                <div class="nav-elements">
+                  <a href="#about-me"><p>About</p></a>
+                  <a href="#skills"><p>Skills</p></a>
+                  <a href="#projects"><p>Projects</p></a>
+                </div>
+            </nav>
+          <main>
+            <div class="welcome-message">
+              <h1>Welcome</h1>
+            </div>
+            <div class="bounce">V Scroll Down V</div>
+          </main>
+        <div class="about-me" id="about-me">
+            <div class="personal-image">
+                <img src="./photos/hunter.jpeg"/>
+            </div>
+            <div class="about-me-text">
+                <h2>About</h2>
+                <p id="name">Hi I am Hunter</p>
+                <p id="about-text">I specialize in building dynamic and functional websites, using the latest in HTML5, CSS, and JavaScript(ES6). I build all my websites from scratch because I hate myself... no I actually don't hate myself but I  enjoy the learning opportunity I afford myself when building from the ground up. Why use a template when you can bash your head against a wall trying to get CSS and JavaScript working.</p>
+            </div>
+        </div>
+        
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+                <div class="html5">
+                  <img id="html5-logo" src="./photos/html5-log0.png"/>
+                </div>
+                <div class="css">
+                  <img id="css-logo" src="./photos/css.png"/>
+                </div>
+                <div class="js">
+                  <img id="js-logo" src="./photos/js.png"/>
+                </div>
+        </div>
+      
+        <div class="all-projects" id="projects">
+            <h2>Projects</h2>
+            <div class="grid-projects">
+                <div class="projects">
+                    <img src="./photos/mp3player.png"/>
+                    <h3>MP3 Player</h3>
+                    <p>Using my knowlege of JavaScript, HTML5, and CSS I built a mp3 player that allows the user to play, pause, skip, shuffle, and pull up a current playlist showing all songs and the one playing.</p>
+                    <a href="https://twitchplus.co/mp3/index.html" target="_blank"><img alt="link to project" id="project-link" src="./photos/link.png"></a>
+                    <div class="tech-used">
+                        <h5>Technology Used</h5>
+                        <div id="tech-used-text">
+                          <p class="html-tech">HTMl5</p>
+                          <p class="css-tech">CSS</p>
+                          <p class="js-tech">JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+          <h4>Thank you and hope you had a great time and may your day be great!</h4>
+          <div class="email">
+            <img class="email-img" src="./photos/email.png"/>
+            <a class="email-text" href = "mailto: chaohunter1@gmail.com">Send Email</a>
+            <img class="email-img" src="./photos/email.png"/>
+          </div>
+      </footer>
+    </body>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+  <script src="./test.js"></script>
+</html>
