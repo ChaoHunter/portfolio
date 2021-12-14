@@ -198,7 +198,7 @@ main {
     border: solid gray 4px;
     border-radius: 5%;
     display: grid;
-    grid-template: 30% 5% 1fr 10% 10% / 1fr;
+    grid-template: 40% 5% 1fr 10% 10% / 1fr;
     justify-items: center;
     align-items: center;
     background-color: #6D7BBC;
@@ -208,12 +208,14 @@ main {
     
 }
 .projects p {
-    max-width: 70%;
+    max-width: 80%;
     font-size: 1.2em;
 }
 .projects img {
-    width: 80%;
+    width: 70%;
     border-radius: 5%;
+    max-height: 90%;
+    max-width: 70%;
 }
 #project-link {
     height: auto;
@@ -323,7 +325,6 @@ footer {
     color: whitesmoke;
     justify-self: center;
     min-width: 300px;
-    
 }
 .projects p {
     max-width: 70%;
@@ -332,12 +333,12 @@ footer {
 .projects img {
     width: 95%;
     border-radius: 5%;
+    max-height: 100%;
 }
 .tech-used {
    font-size: 1.4em;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 #tech-used-text{
     display: flex;
@@ -361,3 +362,4 @@ footer {
      }
 
  }
+ 
